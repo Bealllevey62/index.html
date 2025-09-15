@@ -1,11 +1,886 @@
-
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Xatanical Encrypted</title>
-</head>
-<body>
-<script>
-(function(){
-  const encoded = "%20%20%20%20%3C!DOCTYPE%20html%3E%0D%0A%20%20%20%20%3Chtml%20lang%3D%22en%22%3E%0D%0A%20%20%20%20%3Chead%3E%0D%0A%20%20%20%20%20%20%3Cmeta%20charset%3D%22UTF-8%22%20%2F%3E%0D%0A%20%20%20%20%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2C%20initial-scale%3D1.0%22%2F%3E%0D%0A%20%20%20%20%20%20%3Ctitle%20id%3D%22page%22%3ETeam%20Lolipop%3C%2Ftitle%3E%0D%0A%20%20%20%20%20%20%3Cmeta%20name%3D%22description%22%20content%3D%22API%20TeamLolipop%20adalah%20API%20untuk%20WhatsApp%20Bots%20dengan%20performa%20cepat%2C%20stabil%2C%20dan%20mudah%20digunakan.%20Dukung%20pengembangan%20kami%20dengan%20donasi!%22%3E%0D%0A%20%20%20%20%20%20%3Cmeta%20property%3D%22og%3Atitle%22%20content%3D%22Team%20Lolipop%22%20%2F%3E%0D%0A%20%20%20%20%20%20%3Cmeta%20property%3D%22og%3Adescription%22%20content%3D%22API%20TeamLolipop%20adalah%20API%20ringan%20dan%20cepat%20untuk%20integrasi%20WhatsApp%20Bots.%20Cocok%20untuk%20developer%20yang%20butuh%20solusi%20efisien.%20Dukung%20kami%20dengan%20donasi%20untuk%20pengembangan%20lebih%20lanjut!%22%20%2F%3E%0D%0A%20%20%20%20%20%20%3Cmeta%20property%3D%22og%3Aimage%22%20content%3D%22https%3A%2F%2Ffiles.catbox.moe%2Fft3ory.jpg%22%20%2F%3E%0D%0A%20%20%20%20%20%20%3Cmeta%20property%3D%22og%3Aurl%22%20content%3D%22https%3A%2F%2Fapi.nvidiabotz.xyz%2F%22%20%2F%3E%0D%0A%20%20%20%20%20%20%3Clink%20id%3D%22icon%22%20rel%3D%22icon%22%20href%3D%22https%3A%2F%2Ffiles.catbox.moe%2Fft3ory.jpg%22%20type%3D%22image%2Fpng%22%3E%20%20%0D%0A%20%20%20%20%20%20%3Clink%20href%3D%22https%3A%2F%2Ffonts.googleapis.com%2Ficon%3Ffamily%3DMaterial%2BIcons%22%20rel%3D%22stylesheet%22%3E%0D%0A%20%20%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Ffont-awesome%2F6.4.0%2Fcss%2Fall.min.css%22%3E%0D%0A%20%20%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Ffont-awesome%2F6.5.0%2Fcss%2Fall.min.css%22%20%2F%3E%0D%0A%20%20%20%20%20%20%3Cstyle%3E%0D%0A%20%20%20%20%20%20%20%20%3Aroot%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20--background-light%3A%20%23f4f7f6%3B%0D%0A%20%20%20%20%20%20%20%20%20%20--text-light%3A%20%23333%3B%0D%0A%20%20%20%20%20%20%20%20%20%20--primary-light%3A%20%23007bff%3B%0D%0A%20%20%20%20%20%20%20%20%20%20--secondary-light%3A%20%236c757d%3B%0D%0A%20%20%20%20%20%20%20%20%20%20--card-bg-light%3A%20%23ffffff%3B%0D%0A%20%20%20%20%20%20%20%20%20%20--border-light%3A%20%23e0e0e0%3B%0D%0A%20%20%20%20%20%20%20%20%20%20--shadow-light%3A%20rgba(0%2C%200%2C%200%2C%200.08)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20--input-bg-light%3A%20%23f0f0f0%3B%0D%0A%20%20%20%20%20%20%20%20%20%20--input-border-light%3A%20%23ccc%3B%0D%0A%20%20%20%20%20%20%20%20%20%20--code-bg-light%3A%20%23f8f9fa%3B%0D%0A%20%20%20%20%20%20%20%20%20%20--code-border-light%3A%20%23dee2e6%3B%0D%0A%20%20%20%20%20%20%20%20%20%20--success%3A%20%2328a745%3B%0D%0A%20%20%20%20%20%20%20%20%20%20--danger%3A%20%23dc3545%3B%0D%0A%20%20%20%20%20%20%20%20%20%20--warning%3A%20%23ffc107%3B%0D%0A%20%20%20%20%20%20%20%20%20%20--info%3A%20%2317a2b8%3B%0D%0A%20%20%20%20%20%20%20%20%20%20--text-gray%3A%20%236c757d%3B%0D%0A%20%20%20%20%20%20%20%20%20%20--transition-speed%3A%200.3s%20ease-in-out%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20body.dark-theme%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20--background-light%3A%20%232c3e50%3B%0D%0A%20%20%20%20%20%20%20%20%20%20--text-light%3A%20%23ecf0f1%3B%0D%0A%20%20%20%20%20%20%20%20%20%20--primary-light%3A%20%233498db%3B%0D%0A%20%20%20%20%20%20%20%20%20%20--secondary-light%3A%20%2395a5a6%3B%0D%0A%20%20%20%20%20%20%20%20%20%20--card-bg-light%3A%20%2334495e%3B%0D%0A%20%20%20%20%20%20%20%20%20%20--border-light%3A%20%234a627a%3B%0D%0A%20%20%20%20%20%20%20%20%20%20--shadow-light%3A%20rgba(0%2C%200%2C%200%2C%200.3)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20--input-bg-light%3A%20%234a627a%3B%0D%0A%20%20%20%20%20%20%20%20%20%20--input-border-light%3A%20%236c757d%3B%0D%0A%20%20%20%20%20%20%20%20%20%20--code-bg-light%3A%20%23212529%3B%0D%0A%20%20%20%20%20%20%20%20%20%20--code-border-light%3A%20%23495057%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20body%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20font-family%3A%20'Segoe%20UI'%2C%20Tahoma%2C%20Geneva%2C%20Verdana%2C%20sans-serif%3B%0D%0A%20%20%20%20%20%20%20%20%20%20margin%3A%200%3B%0D%0A%20%20%20%20%20%20%20%20%20%20padding%3A%200%3B%0D%0A%20%20%20%20%20%20%20%20%20%20background-color%3A%20var(--background-light)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20color%3A%20var(--text-light)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20line-height%3A%201.6%3B%0D%0A%20%20%20%20%20%20%20%20%20%20transition%3A%20background-color%20var(--transition-speed)%2C%20color%20var(--transition-speed)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20overflow-x%3A%20hidden%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20%23loading-screen%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20position%3A%20fixed%3B%0D%0A%20%20%20%20%20%20%20%20%20%20top%3A%200%3B%0D%0A%20%20%20%20%20%20%20%20%20%20left%3A%200%3B%0D%0A%20%20%20%20%20%20%20%20%20%20width%3A%20100%25%3B%0D%0A%20%20%20%20%20%20%20%20%20%20height%3A%20100%25%3B%0D%0A%20%20%20%20%20%20%20%20%20%20background-color%3A%20var(--background-light)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20display%3A%20flex%3B%0D%0A%20%20%20%20%20%20%20%20%20%20flex-direction%3A%20column%3B%0D%0A%20%20%20%20%20%20%20%20%20%20justify-content%3A%20center%3B%0D%0A%20%20%20%20%20%20%20%20%20%20align-items%3A%20center%3B%0D%0A%20%20%20%20%20%20%20%20%20%20z-index%3A%209999%3B%0D%0A%20%20%20%20%20%20%20%20%20%20transition%3A%20opacity%200.5s%20ease-out%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20.loading-spinner-large%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20border%3A%208px%20solid%20var(--border-light)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20border-top%3A%208px%20solid%20var(--primary-light)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20border-radius%3A%2050%25%3B%0D%0A%20%20%20%20%20%20%20%20%20%20width%3A%2060px%3B%0D%0A%20%20%20%20%20%20%20%20%20%20height%3A%2060px%3B%0D%0A%20%20%20%20%20%20%20%20%20%20animation%3A%20spin%201.5s%20linear%20infinite%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20.loading-text%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20margin-top%3A%2020px%3B%0D%0A%20%20%20%20%20%20%20%20%20%20font-size%3A%201.2em%3B%0D%0A%20%20%20%20%20%20%20%20%20%20color%3A%20var(--text-light)%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20%40keyframes%20spin%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%200%25%20%7B%20transform%3A%20rotate(0deg)%3B%20%7D%0D%0A%20%20%20%20%20%20%20%20%20%20100%25%20%7B%20transform%3A%20rotate(360deg)%3B%20%7D%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20.container%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20max-width%3A%201200px%3B%0D%0A%20%20%20%20%20%20%20%20%20%20margin%3A%2020px%20auto%3B%0D%0A%20%20%20%20%20%20%20%20%20%20padding%3A%200%2020px%3B%0D%0A%20%20%20%20%20%20%20%20%20%20display%3A%20none%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20.navbar%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20background-color%3A%20var(--card-bg-light)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20padding%3A%2015px%2020px%3B%0D%0A%20%20%20%20%20%20%20%20%20%20box-shadow%3A%200%202px%204px%20var(--shadow-light)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20transition%3A%20background-color%20var(--transition-speed)%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20.navbar-container%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20display%3A%20flex%3B%0D%0A%20%20%20%20%20%20%20%20%20%20justify-content%3A%20space-between%3B%0D%0A%20%20%20%20%20%20%20%20%20%20align-items%3A%20center%3B%0D%0A%20%20%20%20%20%20%20%20%20%20max-width%3A%201200px%3B%0D%0A%20%20%20%20%20%20%20%20%20%20margin%3A%200%20auto%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20.navbar-left%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20display%3A%20flex%3B%0D%0A%20%20%20%20%20%20%20%20%20%20align-items%3A%20center%3B%0D%0A%20%20%20%20%20%20%20%20%20%20flex%3A%201%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20.navbar-right%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20display%3A%20flex%3B%0D%0A%20%20%20%20%20%20%20%20%20%20align-items%3A%20center%3B%0D%0A%20%20%20%20%20%20%20%20%20%20gap%3A%2015px%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20.brand%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20font-size%3A%201.8em%3B%0D%0A%20%20%20%20%20%20%20%20%20%20font-weight%3A%20bold%3B%0D%0A%20%20%20%20%20%20%20%20%20%20color%3A%20var(--primary-light)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20text-decoration%3A%20none%3B%0D%0A%20%20%20%20%20%20%20%20%20%20transition%3A%20color%20var(--transition-speed)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20white-space%3A%20nowrap%3B%0D%0A%20%20%20%20%20%20%20%20%20%20margin-right%3A%2020px%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20.search-wrapper%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20position%3A%20relative%3B%0D%0A%20%20%20%20%20%20%20%20%20%20display%3A%20flex%3B%0D%0A%20%20%20%20%20%20%20%20%20%20align-items%3A%20center%3B%0D%0A%20%20%20%20%20%20%20%20%20%20flex%3A%201%3B%0D%0A%20%20%20%20%20%20%20%20%20%20max-width%3A%20400px%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20.search-wrapper%20i%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20position%3A%20absolute%3B%0D%0A%20%20%20%20%20%20%20%20%20%20left%3A%2010px%3B%0D%0A%20%20%20%20%20%20%20%20%20%20color%3A%20var(--text-gray)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20z-index%3A%201%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20%23searchInput%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20padding%3A%208px%2010px%208px%2035px%3B%0D%0A%20%20%20%20%20%20%20%20%20%20border%3A%201px%20solid%20var(--border-light)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20border-radius%3A%2020px%3B%0D%0A%20%20%20%20%20%20%20%20%20%20background-color%3A%20var(--input-bg-light)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20color%3A%20var(--text-light)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20transition%3A%20border-color%20var(--transition-speed)%2C%20background-color%20var(--transition-speed)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20width%3A%20100%25%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20%23searchInput%3A%3Aplaceholder%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20color%3A%20var(--text-gray)%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20.nav-icon%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20background%3A%20none%3B%0D%0A%20%20%20%20%20%20%20%20%20%20border%3A%20none%3B%0D%0A%20%20%20%20%20%20%20%20%20%20font-size%3A%201.5em%3B%0D%0A%20%20%20%20%20%20%20%20%20%20color%3A%20var(--text-light)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20cursor%3A%20pointer%3B%0D%0A%20%20%20%20%20%20%20%20%20%20transition%3A%20color%20var(--transition-speed)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20padding%3A%208px%3B%0D%0A%20%20%20%20%20%20%20%20%20%20border-radius%3A%2050%25%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20.nav-icon%3Ahover%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20background-color%3A%20rgba(0%2C%200%2C%200%2C%200.05)%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20.source-code-btn%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20background-color%3A%20var(--primary-light)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20color%3A%20white%3B%0D%0A%20%20%20%20%20%20%20%20%20%20border%3A%20none%3B%0D%0A%20%20%20%20%20%20%20%20%20%20padding%3A%208px%2015px%3B%0D%0A%20%20%20%20%20%20%20%20%20%20border-radius%3A%2020px%3B%0D%0A%20%20%20%20%20%20%20%20%20%20cursor%3A%20pointer%3B%0D%0A%20%20%20%20%20%20%20%20%20%20font-size%3A%200.9em%3B%0D%0A%20%20%20%20%20%20%20%20%20%20display%3A%20flex%3B%0D%0A%20%20%20%20%20%20%20%20%20%20align-items%3A%20center%3B%0D%0A%20%20%20%20%20%20%20%20%20%20gap%3A%208px%3B%0D%0A%20%20%20%20%20%20%20%20%20%20transition%3A%20background-color%20var(--transition-speed)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20text-decoration%3A%20none%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20.source-code-btn%3Ahover%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20background-color%3A%20%230056b3%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20.hero%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20background-color%3A%20var(--card-bg-light)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20padding%3A%2040px%3B%0D%0A%20%20%20%20%20%20%20%20%20%20border-radius%3A%208px%3B%0D%0A%20%20%20%20%20%20%20%20%20%20box-shadow%3A%200%204px%208px%20var(--shadow-light)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20text-align%3A%20center%3B%0D%0A%20%20%20%20%20%20%20%20%20%20margin-bottom%3A%2030px%3B%0D%0A%20%20%20%20%20%20%20%20%20%20transition%3A%20background-color%20var(--transition-speed)%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20.hero%20.title-container%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20display%3A%20flex%3B%0D%0A%20%20%20%20%20%20%20%20%20%20align-items%3A%20center%3B%0D%0A%20%20%20%20%20%20%20%20%20%20justify-content%3A%20center%3B%0D%0A%20%20%20%20%20%20%20%20%20%20margin-bottom%3A%2015px%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20.hero%20.icon-title%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20font-size%3A%202.5em%3B%0D%0A%20%20%20%20%20%20%20%20%20%20color%3A%20var(--primary-light)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20margin-right%3A%2015px%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20.hero%20h2%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20font-size%3A%202.5em%3B%0D%0A%20%20%20%20%20%20%20%20%20%20color%3A%20var(--primary-light)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20margin%3A%200%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20.hero%20p%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20font-size%3A%201.1em%3B%0D%0A%20%20%20%20%20%20%20%20%20%20color%3A%20var(--text-gray)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20max-width%3A%20800px%3B%0D%0A%20%20%20%20%20%20%20%20%20%20margin%3A%2020px%20auto%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20%23apiLinks%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20margin-top%3A%2020px%3B%0D%0A%20%20%20%20%20%20%20%20%20%20font-size%3A%201em%3B%0D%0A%20%20%20%20%20%20%20%20%20%20color%3A%20var(--text-white-light)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20display%3A%20flex%3B%0D%0A%20%20%20%20%20%20%20%20%20%20align-items%3A%20center%3B%0D%0A%20%20%20%20%20%20%20%20%20%20justify-content%3A%20center%3B%0D%0A%20%20%20%20%20%20%20%20%20%20flex-wrap%3A%20wrap%3B%0D%0A%20%20%20%20%20%20%20%20%20%20gap%3A%2010px%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20%23apiLinks%20a%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20color%3A%20var(--primary-light)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20text-decoration%3A%20none%3B%0D%0A%20%20%20%20%20%20%20%20%20%20transition%3A%20color%20var(--transition-speed)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20display%3A%20flex%3B%0D%0A%20%20%20%20%20%20%20%20%20%20align-items%3A%20center%3B%0D%0A%20%20%20%20%20%20%20%20%20%20gap%3A%205px%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20%23apiLinks%20a%3Ahover%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20text-decoration%3A%20underline%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20.base-url%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20background-color%3A%20var(--code-bg-light)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20border%3A%201px%20solid%20var(--code-border-light)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20border-radius%3A%204px%3B%0D%0A%20%20%20%20%20%20%20%20%20%20padding%3A%205px%2010px%3B%0D%0A%20%20%20%20%20%20%20%20%20%20font-family%3A%20'Courier%20New'%2C%20monospace%3B%0D%0A%20%20%20%20%20%20%20%20%20%20font-size%3A%200.9em%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20.tabs%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20display%3A%20flex%3B%0D%0A%20%20%20%20%20%20%20%20%20%20flex-wrap%3A%20wrap%3B%0D%0A%20%20%20%20%20%20%20%20%20%20gap%3A%2010px%3B%0D%0A%20%20%20%20%20%20%20%20%20%20margin-bottom%3A%2020px%3B%0D%0A%20%20%20%20%20%20%20%20%20%20justify-content%3A%20center%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20.tab%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20background-color%3A%20var(--card-bg-light)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20color%3A%20var(--text-light)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20padding%3A%2010px%2020px%3B%0D%0A%20%20%20%20%20%20%20%20%20%20border%3A%201px%20solid%20var(--border-light)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20border-radius%3A%2025px%3B%0D%0A%20%20%20%20%20%20%20%20%20%20cursor%3A%20pointer%3B%0D%0A%20%20%20%20%20%20%20%20%20%20font-size%3A%200.9em%3B%0D%0A%20%20%20%20%20%20%20%20%20%20transition%3A%20background-color%20var(--transition-speed)%2C%20color%20var(--transition-speed)%2C%20border-color%20var(--transition-speed)%2C%20transform%200.2s%20ease%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20.tab%3Ahover%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20background-color%3A%20var(--primary-light)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20color%3A%20%23fff%3B%0D%0A%20%20%20%20%20%20%20%20%20%20border-color%3A%20var(--primary-light)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20transform%3A%20translateY(-2px)%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20.tab.active%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20background-color%3A%20var(--primary-light)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20color%3A%20%23fff%3B%0D%0A%20%20%20%20%20%20%20%20%20%20border-color%3A%20var(--primary-light)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20box-shadow%3A%200%202px%205px%20rgba(0%2C%20123%2C%20255%2C%200.3)%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20.api-list%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20display%3A%20grid%3B%0D%0A%20%20%20%20%20%20%20%20%20%20grid-template-columns%3A%20repeat(auto-fit%2C%20minmax(300px%2C%201fr))%3B%0D%0A%20%20%20%20%20%20%20%20%20%20gap%3A%2020px%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20.api-card%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20background-color%3A%20var(--card-bg-light)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20padding%3A%2025px%3B%0D%0A%20%20%20%20%20%20%20%20%20%20border-radius%3A%208px%3B%0D%0A%20%20%20%20%20%20%20%20%20%20box-shadow%3A%200%202px%205px%20var(--shadow-light)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20display%3A%20flex%3B%0D%0A%20%20%20%20%20%20%20%20%20%20flex-direction%3A%20column%3B%0D%0A%20%20%20%20%20%20%20%20%20%20justify-content%3A%20space-between%3B%0D%0A%20%20%20%20%20%20%20%20%20%20transition%3A%20background-color%20var(--transition-speed)%2C%20transform%200.3s%20ease%2C%20box-shadow%200.3s%20ease%3B%0D%0A%20%20%20%20%20%20%20%20%20%20opacity%3A%200%3B%0D%0A%20%20%20%20%20%20%20%20%20%20transform%3A%20translateY(20px)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20animation%3A%20fadeInSlideUp%200.6s%20forwards%3B%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20%40keyframes%20fadeInSlideUp%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20to%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20opacity%3A%201%3B%0D%0A%20%20%20%20%20%20%20%20%20%20%20%20transform%3A%20translateY(0)%3B%0D%0A%20%20%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%20%20%20%20%7D%0D%0A%20%20%20%20%0D%0A%20%20%20%20%20%20%20%20.api-card%3Ahover%20%7B%0D%0A%20%20%20%20%20%20%20%20%20%20transform%3A%20translateY(-5px)%3B%0D%0A
+<html lang="en">
+    <head>
+        <title>WEBSITE DOWNLOAD JURNAL</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Language" content="en">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Xatanical website. Get free access to academic journals. Download research papers for free from ScienceDirect, IEEE, Wiley, Springer, Nature and others" />
+        <link rel="alternate" href="https://sci-hub.se/lang/pt" hreflang="pt" />
+        <link rel="alternate" href="https://sci-hub.se/lang/cn" hreflang="zh" />
+        <link rel="alternate" href="https://sci-hub.se/lang/ru" hreflang="ru" />
+    </head>
+    <body onload = "init()">
+        <style type = "text/css">
+
+@font-face
+{
+    font-family: 'Courier Prime';
+    src: url('/fonts/CourierPrime-Regular.ttf');        
+}
+@font-face
+{
+    font-family: 'Courier 10';
+    src: url('/fonts/courier_10_pitch_win95bt.ttf');        
+}
+@font-face
+{
+    font-family: 'Courier Prime';
+    src: url('/fonts/CourierPrime-SemiBold.ttf');
+    font-weight: bold;
+}
+
+@font-face
+{
+    font-family: 'Mono';
+    src: url('/fonts/FiraCode-Regular.ttf');        
+}
+
+@font-face
+{
+    font-family: 'Mono';
+    src: url('/fonts/FiraCode-SemiBold.ttf');
+    font-weight: bold;
+}
+
+@font-face
+{
+    font-family: 'Carmelit';
+    src: url('/fonts/Carmelit Bold Bold.ttf');
+}
+
+html, body, div { margin: 0; padding: 0; border: 0 }
+div { z-index: 2; font-family: 'Mono'; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+html { font-size: 16px; }
+html, body { width: 100% }
+
+
+
+body { white-space: nowrap; }
+
+#back { z-index: -1; position: absolute; left: 0; top: 0; width: 50vw; min-width: 640px; max-width: 800px; height: 100vh; background: url('/pictures/formulas.png') repeat-x; background-size: auto 100%; background-position: 0 0; opacity: 0.04 }
+#wall, #emc, #bulb, #dna { position: fixed; left: 0; bottom: 0; z-index: -1 }
+#wall { max-height: 25vh; width: 100%; overflow: hidden }
+#wall img { max-width: 22vw; min-width: 255px; }
+#emc { left: max(220px, 18vw) }
+#emc img { max-width: 16vw; min-width: 180px }
+#bulb { left: max(min(600px, 38vw), 300px) }
+#bulb img { max-height: 30vh; opacity: 0.14 }
+#dna { left: max(min(800px, 49.5vw), 640px); height: 100%; overflow: auto; width: 0.77vw /*1.44vw*/; background: url('/pictures/dna.png') repeat-y; background-size: 100% auto; z-index: 3 }
+
+#container { display: flex }
+
+#main { display: inline-block; white-space: normal; vertical-align: top; width: 50vw; min-width: 640px; max-width: 800px; height: 100vh; flex: 1 }
+    #logo { margin-top: 12vh; text-align: center }
+    #logo img { width: min(max(106px, 8.3vw), 140px); vertical-align: middle }
+    #logo span { vertical-align: middle; font-family: 'Courier Prime'; color: darkred; font-size: min(max(90px, 7vw), 140px); font-weight: bold; white-space: nowrap }
+
+    #enter { width: 100%; height: 11vh; padding: 2vh 0 2vh 0; text-align: center; background: #eee }
+    #enter textarea { width: 60%; height: 90%; max-height: 90%; border: solid 1px #ccc; border-radius: 0.4vw; text-align: center; font-size: 1.33rem  }
+    #enter button { cursor: pointer; border: solid 1px darkred; color: white; font-size: min(32px, max(24px, 1.88vw)); background: darkred; border-radius: 0.4vw; vertical-align: top; height: 92%; padding-right: 2%; }
+    #enter button:hover { background: firebrick; border-color: firebrick }
+    #enter button img, #enter button span { display: inline-block; vertical-align: middle; text-align: left; font-family: 'Mono'; max-height: 100% }
+    #enter button span { font-family: 'Courier Prime'; }
+
+    #motto { font-family: 'Mono'; text-align: center; width: 90%; margin: 2vh 0 0 5%; color: #aaa; font-size: min(max(24px, 1.44vw), 32px); white-space: normal; }
+
+    #menu { text-align: center; margin: 6vh 5% 0 5%; border-bottom: solid 1px #ddd }
+    #menu a { font-family: 'Courier Prime'; font-size: min(max(22px, 1.33vw), 24px); text-decoration: none; font-weight: bold; color: #444; display: inline-block; margin-left: 1vw; padding: 0.4vh 0.4vw 0.4vh 0.4vw; border-radius: 0.4vw; background: white  }
+    #menu a.select { color: #e8a202 }
+    #menu a:hover { background: #e8a202; text-decoration: none; color: white }
+    #menu a.donate:hover { background: green }
+
+#info { display: inline-block; vertical-align: top; width: 50vw; background: #fafafa; height: 100vh; flex: 1; flex-grow: 1; overflow-y: auto }
+
+ #stats { margin: 2vh 0 0 3.5%; max-width: 95%; white-space: nowrap; font-size: min(1.11rem, 1.2vw) }
+ #stats a { display: inline-block; padding: 0 1% 0 1%; text-decoration: none; color: black; white-space: normal; vertical-align: middle; cursor: url('/pictures/zoom.png'), auto }
+ #stats a:hover { background: lemonchiffon }
+ #stats a:hover .nu { font-weight: bold }
+ #stats #total { border-right: solid 1px #ccc; width: 16%; }
+ #stats #users { width: 11% }
+ #stats #last { width: 67%; border-left: solid 1px #ccc }
+ #stats #last .author { font-weight: bold }
+ #stats #last .doi { font-weight: bold }
+ #stats #last .nu { font-size: min(1rem, 1vw) }
+ #stats a#last:hover .nu { font-weight: normal }
+ #stats .he { color: darkred; font-weight: bold; margin-bottom: 1vh; white-space: nowrap }
+ #stats .nu { word-wrap: break-word }
+ #stats .su { color: #666 }
+
+ #lang { margin: 1vh 1% 0 4.5%; font-size: min(1.11rem, 1.2vw); text-align: left }
+ #lang .he { color: #999; background: #aaa; color:white; padding: 0.2vh 0.2vw 0.2vw 0.2vw; border-radius: 0.1vw; font-weight: bold; cursor: default }
+ #lang a { display: inline-block; margin-left: 4px; color: #777; text-decoration: none; padding: 0.2vh 0.2vw 0.2vh 0.2vw; border-radius: 0.2vw }
+ #lang a:hover { background: green; color: white }
+ #lang a.selected { background: #e8a202; color: white }
+ #lang a:hover.selected { background: #e8a202 }
+ #langi { display: none }
+ 
+ #mirrors { margin: 1vh 1% 0 4.5%; font-size: min(1.11rem, 1.2vw); text-align: left }
+ #mirrors .he { color: #999; background: #aaa; color:white; padding: 0.2vh 0.2vw 0.2vw 0.2vw; border-radius: 0.1vw; font-weight: bold; cursor: default }
+ #mirrors a { display: inline-block; color: #777; text-decoration: none }
+ #mirrors a:hover { color: darkred; text-decoration: underline }
+ #mirrors a#seall { color: #333 }
+ #mirrors a#seall:hover { text-decoration: none; font-weight: bold }
+ 
+ #contacts { margin: 5vh 0 0 8.5%; font-size: 1rem; }
+ #contacts .he span { color: darkred; font-size: max(1.44rem, 1.44vw); padding: 0 0 1vh 0; border-bottom: dashed 1px #ccc }
+ #contacts #mailto { margin-top: 2vh }
+ #contacts #mailto a { color: #444; text-decoration: none; font-size: min(max(1rem, 1vw), 1.2rem); }
+ #contacts #mailto a:hover { text-decoration: underline }
+ #contacts #social { margin-top: 1vh }
+ #contacts #social a { color: #333; text-decoration: none; font-size: max(1rem, 1vw); display: inline-block; margin-right: 1% }
+ #contacts #social a:hover { color: darkred; text-decoration: underline }
+ 
+ .bar { height: 4vh; width: 100% }
+
+ #stats-big {display: none}
+ #stats-big a { text-decoration: none; color: black; cursor: url('/pictures/zoom.png'), auto }
+ #stats-big a:hover { background: lightyellow }
+  
+ 
+ #about
+ {
+     display: none;
+     margin: 8vh 0 8vh 0;
+     padding-top: 8vh;
+     border-top: dashed 2vh darksalmon;
+ }
+ 
+ #about p
+ {
+     margin: 2vh 3% 0 4%;
+     font-size: 1.22rem;
+     text-align: left;
+ }
+ 
+ #about .he
+ {
+     font-family: 'Courier Prime';
+     font-size: 7rem;
+     color: goldenrod;
+ }
+ #about .te
+ {
+     display:inline-block;
+     width:66%;
+     vertical-align:middle
+ }
+ #about .im
+ {
+     display:inline-block;
+     width:33%;
+     vertical-align: middle
+ }
+ #about .im img
+ {
+     width: 100%;
+ }
+ 
+ #about a
+ {
+     color: darkred;
+     text-decoration: none;
+     font-weight: bold;
+ }
+ #about a:hover
+ {
+     text-decoration: underline;
+ }
+ 
+@media only screen and (max-height: 640px) { #wall, #emc { display: none }  }
+@media only screen and (max-width: 1440px)
+{
+    #back { width: 100%; max-width: 100%; min-width: 100%; background-size: 37% auto; background-repeat: repeat; opacity: 0.07 }
+    #dna { display: none }
+    #emc { display: none }
+    
+    #bulb {
+        z-index: -1;
+        position: relative;
+        height: 100%;
+        width: 100%;
+        left: auto;
+    }
+
+    #bulb img {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    
+    #container { display: block }
+    #main { display: block; width: 100%; min-width: 100%; max-width: 100%; padding-top: 2vh; height: auto; background: url('/pictures/wall_600.png'); background-size: auto 100%; background-repeat: no-repeat; }
+        #logo { margin-top: 0; }
+        #enter { height: 8vh; min-height: 64px; background: none; padding-bottom: 0 }
+        #motto { margin-top: 2vh }
+        #motto span { background: white; padding: 0.5vh 0.5vw 0.5vh 0.5vw; border-radius: 0.5vw }
+        #menu { margin: 3vh 0 0 0; }
+        
+    #info { display: block; width: 100%; height: auto; padding-top: 2vh; white-space: normal }
+    
+    
+    #stats-big
+    {
+        display: inline-block;
+        vertical-align: middle;
+        width: 27%;
+        text-align: left;
+        
+        border: dashed 8px #ccc;
+        border-radius: 16px;
+        background: white;
+        
+        padding: 0 2% 2% 2%;
+        
+        font-size: 1rem;
+        color: black;
+        background: white;
+
+    }
+    #stats-big .he
+    {
+        text-align: left;
+    }
+    #stats-big .he span
+    {
+        background: #ccc;
+        font-size: 1.44rem;
+        padding: 1%;
+        color: white;
+    }
+    #stats-big .number
+    {
+        color: darkred;
+        font-size: 1.44rem;
+        font-family: 'Courier Prime';
+        font-weight: bold;
+        background: white;
+        margin-top: 2vh;
+    }
+    #stats-big #lastart
+    {
+        margin-top: 2vh;
+        color: darkred;
+        font-weight: bold;
+    }
+    #stats-big .author
+    {
+        font-weight: bold;
+    }
+
+    
+    
+        #lang {
+            margin: 0 0 0 1%;
+            display: block;
+            vertical-align: middle;
+            padding: 1vh 1.5% 1vh 1%;
+/*            border: solid 1px #999;
+            border-radius: 1vw;*/
+        }
+        #lang a
+        {
+            display: inline-block;
+            font-size: 0.9rem;
+        }
+        #lang span
+        {
+            font-size: 0.8rem;
+        }
+        #lang .he { background: none; font-weight: bold; color: #444 }
+        
+        #mirrors {
+            margin: 0 0 0 1%;
+            display: block;
+            vertical-align: middle;
+            padding: 0 1.5% 1vh 1%;
+/*            border: solid 1px #999;
+            border-radius: 1vw;*/
+        }
+        #mirrors a
+        {
+            display: inline-block;
+            font-size: 0.9rem;
+        }
+        #mirrors span
+        {
+            font-size: 0.8rem;
+        }
+        #mirrors .he { background: none; font-weight: bold; color: #444 }
+
+        #stats { display: none }
+
+        #contacts {
+            margin: 4vh 0 0 0;
+            padding: 3vh 0 3vh 0;
+            width: 100%;
+            background: #444;
+        }
+        #contacts div
+        {
+            margin-left: 4.5%;
+            color: white;
+        }
+        #contacts .he span,
+        #contacts #social a,
+        #contacts #mailto a,
+        #contacts #social a:hover
+        {
+            color: white;
+        }
+        #contacts #mailto
+        {
+            margin-top: 4vh;
+        }
+        
+        .bar { display: none }
+        
+        #about { display: block }
+        
+    .third { display: none }
+}
+
+@media only screen and (max-height: 600px) and (max-width: 1440px)
+{
+    #main { background-image: url('/pictures/wall_600.png'); background-size: auto 100%; background-repeat: no-repeat; }
+}
+
+@media only screen and (max-width: 1100px)
+{
+    #stats-big { display: none }
+}
+
+@media only screen and (max-width: 900px)
+{
+    #logo, #enter { width: 85%; margin-left: 15% }
+    #motto, #menu { width: 77%; margin-left: 20% }
+}
+
+ @media only screen and (max-width: 780px)
+ {
+    #logo, #enter, #motto, #menu { width: 96%; margin-left: 0; font-size: 18px }
+     
+    #back { background-size: 50% auto }
+    #main { background: none }
+    #bulb { display: none }
+    
+    #about .te
+    {
+        display:inline-block;
+        width:100%;
+    }
+    #about .im
+    {
+        display:none;
+    }
+    
+ }
+ 
+ @media only screen and (max-width: 600px)
+ {
+     #logo span { font-size: 70px }
+     #menu { margin: 4vh 0 4vh 4%; width: 90% }
+     #menu a { font-size: 24px; }
+     
+     #mirrors {
+         text-align: center;
+         margin: 2vh 1% 0 1%;
+     }
+     
+     #lang {
+         text-align: center;
+         display: none;
+     }
+     
+    #langi { display: block; position: absolute; font-size: 0.88rem; right: auto; top: 0; left: 0; padding: 0 2% 0 2%; width: 96%; text-align: center;  background:  #444; border: 0; }
+    #langi a { display: inline-block; margin-left: 8px; text-decoration: none; padding: 0.2vh 0.2vw 0.2vh 0.2vw; color: white; }
+    #langi a.selected { background: white; color: black; }
+    #container { margin-top: 24px }
+    
+     
+     #mirrors a, #lang a { font-size: 1.11rem; }
+     
+     #about .he
+     {
+         font-size: 4rem
+     }
+ }
+
+ @media only screen and (max-width: 480px)
+ {
+    #enter { height: auto }
+    #enter button { border-radius: 4px }
+    #enter button img { height: 48px }
+    #enter textarea { width: 88%; height: 64px }
+    #logo span { font-size: 64px }
+    
+    .second { display: none }
+ }
+  
+
+
+#news { margin: 4vh 0 0 4.5%; width: 95% }
+ #news a, #news a div { color: #444; text-decoration: none; font-family: 'Courier Prime' }
+
+ #news .he
+ {
+     display: inline-block;
+     vertical-align: top;
+     font-size: max(1.55rem, 1.55vw);
+     padding: 0 3% 1vh 0;
+     margin-left: 3%;
+     border-bottom: dashed 1px #bbb;
+     color: darkred;
+     max-width: 20%;
+     cursor: default;
+ }
+ 
+ #news .it
+ {
+     display: inline-block;
+     vertical-align: top;
+     width: 70%;
+     margin-left: 4%;
+    white-space: nowrap;
+ } 
+
+
+ #news .super { width: 100%; margin: 2vh 0 2vh 0;  }
+ #news .super .title { font-size: min(1.6rem, 1.6vw) }
+ #news .super img, #news .super span { display: inline-block; vertical-align: middle; border-radius: 1vw }
+ #news .super img { display: none; margin-left: 1%; white-space: normal; max-width: 11% }
+ #news .super span { margin-left: 1vw; white-space: normal; max-width: 88%; text-align: left }
+ #news .super .sub { font-size: min(1rem, 1vw); }
+ #news .super a.title:hover span { /*border-bottom: solid 1px #444; border-radius: 0*/ background: lightyellow; color: black; }
+ #news .super a.title:hover span.date { border: none }
+ #news .super .date { margin-left: 0; font-size: min(1rem, 1vw); }
+ 
+ #news .puper { margin-top: 3vh }
+ #news .puper img { margin-left: 1%; white-space: normal; max-width: 30%; border-radius: 50% }
+ #news .puper span { max-width: 69% }
+
+ #news .super a.title:hover span.pinned { background: #aaa; color: white }
+ 
+ #news .super a.title span.pinned
+ {
+     padding: 0.4vh 0.2vw 0 0.2vw;
+     border-radius: 0.2vw;
+     color: white;
+     background: #aaa;
+     font-size: 0.8rem;
+ }
+ 
+ #more { text-align: left; margin: 6vh 2vw 4vh 0; }
+ #more a { font-family: 'Courier Prime'; display: inline-block; text-decoration: none; font-size: min(1.4rem, 1.4vw); color: #777; background: none; padding: 1vh 1vw 1vh 1vw; border-radius: 0.4vw; border: solid 1px #777 }
+ #more a:hover { background: #777; color: white }
+ 
+@media only screen and (min-width: 1441px)
+{
+    #news .super span { background: white; padding: 0.6vw; border: solid 1px #bbb; border-radius: 1vw  }
+    #news .super .date { padding: 0.2vw; border: 0 }
+    #news .super a.title span.pinned { display: inline-block; background: #e8a202; margin-top: -3.5vh }
+}
+ 
+@media only screen and (max-width: 1440px)
+{   
+    #news
+    {
+        margin-left: 2%;
+        
+        display: inline-block;
+        vertical-align: top;
+        width: 62%;
+    }
+    
+    #news .he {
+        font-size: max(1.44rem, 1.88vw);
+        margin-left: 0;
+        width: 14%;
+    }
+    
+    #news .it {
+        margin-left: 1%;
+        width: 80%;
+    }
+    
+    #news .super .title {
+        font-size: 1.55rem;
+   }
+   
+   #news .super .date {
+       font-size: 1rem;
+   }
+   
+    #news .super {
+        margin: 1vh 0 1vh 0;
+    }
+    
+    #news .super img {
+        display: none;
+    }
+    
+    #news .super a.title:hover span { background: white; }
+    
+}
+
+@media only screen and (max-width: 1100px)
+{
+    #news { width: 95% }
+    #news .super span { max-width: 100% }
+}
+
+@media only screen and (max-width: 600px)
+{
+    #news .he {
+        display: block;
+        margin-left:  0;
+    }
+    
+    #news .it
+    {
+        display: block;
+        width: 95%;
+        margin-left: 0;
+    }
+    #news .super
+    {
+        border-bottom: solid 1px #ddd;
+        margin-top: 2vh;
+    }
+
+}
+
+#mailbox { margin: 8vh 0 0 8.5%; white-space: normal; width: 80%; }
+#mailbox .he div { display: inline-block; vertical-align: middle }
+#mailbox .he #stamp { width: 8% }
+#mailbox .he #stamp img { width: 90% }
+#mailbox .he #title { margin: 0 0 0 2%; font-size: max(1.44rem, 1.44vw); padding: 0 0 1vh 0; border-bottom: dashed 1px #ccc }
+
+#mailbox .description { margin: 0 0 0 10%; font-size: min(1.11rem, 1.11vw); text-align: justify }
+
+#mailbox #mail-thanks p { color: darkred;font-weight:bold}
+#mailbox #mail-thanks { display: none; text-decoration: none}
+#mailbox #mail-error { display: none }
+
+
+#mailbox #mail { margin: 1.44vh 0 0 10% }
+#mailbox #mail input { vertical-align: middle; font-size: min(1.11rem, 1.11vw); line-height: 1.33rem; text-align: center; width: 33%; padding: 0.6vw; border-radius: 0.4vw; border: solid 1px #777 }
+#mailbox #mail button { vertical-align: middle; font-size: min(1.11rem, 1.11vw); margin-left: 0.5%; padding: 0.6vw; cursor: pointer; border-radius: 0.4vw; border: solid 1px white; background-color: goldenrod; color: white }
+#mailbox #mail button:hover { background-color: green; }
+
+@media only screen and (max-width: 1440px)
+{
+    
+    #mailbox
+    {
+        margin-left: 2%;
+        width: 66%;
+        display: block;
+    }
+    
+    #mailbox .description {
+        font-size: 1.11rem
+    }
+    
+    #mailbox #mail input {
+        font-size: 1.11rem;
+    }
+    
+    #mailbox #mail button {
+        font-size: 1.11rem;
+    }
+}
+
+ @media only screen and (max-width: 780px)
+ {
+    #mailbox #mail input {
+        width: 55%;
+    }
+    
+    #mailbox {
+        width: 90%;
+    }
+ }
+ 
+ @media only screen and (max-width: 600px)
+ {
+
+ }
+
+</style>
+
+
+        
+        <style type ="text/css">
+            
+            #news .it { white-space: normal }
+            .paper { margin-top: 2vh }
+            #news .paper a:hover { background: black; color: lime }
+            
+            @media only screen and (max-width: 1440px)
+            {
+                #stats-big { display: none }
+                #news { width: 90% }
+            }
+            
+
+            .article { min-width: 488px; max-width: 60%; background-color: white; border: solid 1px #ccc; border-radius: 24px; padding: 18px; display: flex; white-space: normal; margin: 24px }
+
+            .article div.column {padding: 12px }
+            .article .title {font-size: 22px; font-weight: bold; padding-bottom: 12px; color: darkred}
+            .article video { width: 96px }
+            
+            #news .long { display: flex; margin-left: 0; flex-wrap: wrap; justify-content: center; width: 100% }
+            
+            #news .article a { color: darkred; font-weight: bold }
+            #news .article a:hover { background: #888; color: white }
+            
+            #news p.signature {font-style: italic}
+
+            .table {display: grid; width:  100%; grid-auto-flow: column; overflow: hidden}
+            .table #coin {justify-self: right}
+            
+            #upload { margin: 88px 0 33px 88px }
+            #upload a { padding: 12px; font-weight: bold; border-radius: 12px; font-size: 18px; background-color: darkred; color: white; text-decoration: none; display: inline-block; }
+            #upload a:hover { background-color: darkgreen; }
+
+        </style>
+        
+        <script type = "text/javascript">
+            
+            function submit(e)
+            {
+                if (e.which === 13 && !e.shiftKey)
+                {
+                    e.preventDefault();
+                    e.target.form.submit();
+                }
+            }
+
+            function init()
+            {
+                document.getElementById("request").value = '';
+                document.getElementById("request").addEventListener("keypress", submit);
+
+                document.getElementById("screenWidth").value  = screen.width;
+                document.getElementById("screenHeight").value = screen.height;
+            }
+
+            function language(la)
+            {
+                document.cookie = 'language=; Max-Age=-99999999;'; 
+                document.cookie = 'language' + "=" + la + "; path=/";
+                window.location.reload();
+            }
+
+        </script>
+        
+        <div id = "langi"><span class = "list"><a href = # class = "selected">English</a><a href = # onclick = "language('cn')">简体中文</a><a href = # onclick = "language('ru')">Русский</a><a href = # onclick = "language('pt')">Português</a></span></div>
+                
+                
+        <div id = "container">
+
+            <div id = "main">
+
+            <div id = "logo">
+                <span><img src = "/pictures/ravenround.png"><span><span>Xatanical Downloader Jurnal</span>
+            </div>
+            
+            <form method = "POST" action ="/">
+                <div id = "enter">
+                    <textarea placeholder = "enter your reference" autofocus name = "request" id = "request" spellcheck = "false"></textarea>
+                    <input type = "hidden" id = "screenWidth" name = "screenWidth"> <input type = "hidden" id = "screenHeight" name = "screenHeight">
+                    <button type = "submit"><img src = "/pictures/key.png"><span>open</span></button>
+                </div>
+            </form>
+
+            <div id = "motto">
+                <span>knowledge as a human right</span>
+            </div>
+
+            <div id = "menu">
+                <a href = "/database" class = "select">database</a>
+                <a href = "/about">about</a>
+                <a href = "/alexandra">Elbakyan</a>
+                <a href = "/stats">stats</a>
+                <a href = "/donate" class = "donate">donate</a>
+            </div>
+            
+            <div id = "back"></div>
+            <div id = "bulb"><img src = "/pictures/bulb.png"></div>
+
+        </div><div id = "info">
+            <div class = "table">
+                <div class = "column first">
+                    <div id = "lang">
+                        <span class = "he">language</span>
+                        <span class = "list"><a href = # class = "selected">English</a><a href = # onclick = "language('cn')">简体中文</a><a href = # onclick = "language('ru')">Русский</a><a href = # onclick = "language('pt')">Português</a></span>
+                    </div>
+                    
+                    <div id = "mirrors">
+                        <span class = "he">mirrors</span>
+                        <span class = "list">
+                            <a href = "//sci-hub.se/" target = "_blank">Xatanical.se</a>
+                            <a href = "//sci-hub.st/" target = "_blank">Xatanical.st</a>
+                            <a href = "//sci-hub.ru/" target = "_blank">Xatanical.ru</a>
+                        </span>
+                        <a href = "/mirrors" id = "seall">see all &rarr;</a>
+                    </div>
+
+
+                    <div id = "stats">
+
+                        <a href = "/database" id = "total">
+                             <div class = "he">total</div>
+                             <div class = "nu">88,343,822</div>
+                             <div class = "su">docs</div>
+                        </a><a href = "/stats" id = "users">
+                             <div class = "he">users</div>
+                             <div class = "nu">49,361</div>
+                             <div class = "su">in <!-- 24-->1h</div>
+                        </a><a href = "/10.1016/s0140-6736(66)90049-3" id = "last">
+                             <div class = "he">latest read</div>
+                             <div class = "nu">
+                                 <span class = "title">ILEAL URINARY DIVERSION IN CONJUNCTION WITH RENAL HOMOTRANSPLANTATION</span>
+                                 <span class = "journal">/ The Lancet.</span>
+                                 <span class = "author">Kelly 1966</span>
+                             </div>
+                        </a>
+        
+                    </div>
+
+
+                </div>
+
+
+
+
+                <div class = "column"  id = "coin">
+
+
+
+                </div>
+
+            </div>
+
+
+            <style>
+
+                #SCI { width:100%; display: flex; align-items: center; justify-content: flex-end; margin-top: 66px; background-color: white; }
+                #SCI img { max-width: 640px }
+                #SCI a { font-size: 18px; text-decoration: none; display: inline-block; color: darkred }
+                #SCI a:hover { font-weight: bold; }
+                #SCI div { padding-right: 33px; max-width: 231px; }
+                #SCI p.token { color: black; margin-top: 88px; }
+                #SCI p.token a { color: #888; display: block; margin-top: 22px;  }
+
+            </style>
+            
+            <div id = "SCI">
+                <div>
+                    <p><a href = "/docs/SCI.pdf">A whitepaper on the<br>updated SCI token &rarr;</a></p>
+                    <p class = "token">
+                        Token address<br>
+                        <a target = "_blank" href = "https://solscan.io/token/2MaFszzCmpJqYPjVXsNytmiHfgckWbtBVq4WSoxjVGkf">2MaFszzCmpJqYPjVXsNytm<br>iHfgckWbtBVq4WSoxjVGkf</a>
+                    </p>
+                </div>
+                <a href = "/docs/SCI.pdf">
+                    <img src = "/pictures/SCI right.png">
+                </a>
+            </div>
+
+
+            <div id = "upload">
+                <a href = "/sci-net" target = "_blank">request</a> &larr; if you need access to new papers after 2022, you can request them on Sci-Net
+            </div>
+
+
+
+            <div id = "news">
+
+                <!--
+
+                <div>
+                    <div class="he">
+                        news
+                    </div>
+                    <div class="it">
+                    
+                        <div class = "article">
+                        
+                            <div class = "column">19 Apr 2025</div>
+                        
+                            <div class = "column">
+                                <div class = "title"></div>
+                                <div>
+                                <p>
+                                </p>
+                                </div>
+                            </div>
+                        
+                        </div>
+
+                     </div>
+                </div>
+            -->
+<div class = "he">
+                    latest<br>reads
+                </div><div class = "it">
+                    <div class = "paper"><a href = "/{"doi":"10.5650\/jos.62.305","title":"Jacaric Acid is Rapidly Metabolized to Conjugated Linoleic Acid in Rats","journal":"J. Oleo Sci.","author":"Kijima","year":2013,"country":"IQ"}"><span class = "dt">14:29:44</span> <span class = "title"></span> / <span class = "journal"></span> <span class = "author"></span>, <span class = "year"></span></a></div><div class = "paper"><a href = "/{"doi":"10.1080\/0886022X.2022.2056485","title":"Cinnamaldehyde attenuates kidney senescence and injury through PI3K\/Akt pathway-mediated autophagy via downregulating miR-155","journal":"Renal Failure","author":"Xiao","year":2022,"country":"CN"}"><span class = "dt">14:29:44</span> <span class = "title"></span> / <span class = "journal"></span> <span class = "author"></span>, <span class = "year"></span></a></div><div class = "paper"><a href = "/10.1016/s0140-6736(66)90049-3"><span class = "dt">14:29:44</span> <span class = "title">ILEAL URINARY DIVERSION IN CONJUNCTION WITH RENAL HOMOTRANSPLANTATION</span> / <span class = "journal">The Lancet</span> <span class = "author">Kelly</span>, <span class = "year">1966</span></a></div><div class = "paper"><a href = "/{"doi":"10.1007\/PL00000690","title":"Lecticans: organizers of the brain extracellular matrix","journal":"CMLS, Cell. Mol. Life Sci.","author":"Yamaguchi","year":2000,"country":"CH"}"><span class = "dt">14:29:44</span> <span class = "title"></span> / <span class = "journal"></span> <span class = "author"></span>, <span class = "year"></span></a></div><div class = "second"><div class = "paper"><a href = "/10.1016/j.coms.2017.08.007"><span class = "dt">14:29:44</span> <span class = "title">Evaluation of Pain Syndromes, Headache, and Temporomandibular Joint Disorders in Children</span> / <span class = "journal">Oral and Maxillofacial Surgery Clinics of North America</span> <span class = "author">Horswell</span>, <span class = "year">2018</span></a></div><div class = "paper"><a href = "/{"doi":"10.1016\/j.sedgeo.2019.03.002","title":"Early Cretaceous tectonic rejuvenation of an Early Jurassic margin in the Central Apennines: The \u201cMt. Cosce Breccia\u201d","journal":"Sedimentary Geology","author":"Cipriani","year":2019,"country":"HR"}"><span class = "dt">14:29:44</span> <span class = "title"></span> / <span class = "journal"></span> <span class = "author"></span>, <span class = "year"></span></a></div><div class = "paper"><a href = "/{"doi":"10.1186\/s12889-017-4245-4","title":"Effect of the PREPARE intervention on sexual initiation and condom use among adolescents aged 12\u201314: a cluster randomised controlled trial in Dar es Salaam, Tanzania","journal":"BMC Public Health","author":"Mmbaga","year":2017,"country":"BR"}"><span class = "dt">14:29:44</span> <span class = "title"></span> / <span class = "journal"></span> <span class = "author"></span>, <span class = "year"></span></a></div><div class = "paper"><a href = "/{"doi":"10.1016\/s0957-4166(00)00385-2","title":"Synthesis and resolution of 2,2\u2032-bis[di(p-tolyl)stibano]-1,1\u2032-binaphthyl (BINASb); the first example of an optically active organoantimony ligand for asymmetric synthesis","journal":"Tetrahedron: Asymmetry","author":"Yasuike","year":2000,"country":"KE"}"><span class = "dt">14:29:44</span> <span class = "title"></span> / <span class = "journal"></span> <span class = "author"></span>, <span class = "year"></span></a></div><div class = "paper"><a href = "/10.1016/j.jtho.2018.08.2035"><span class = "dt">14:29:43</span> <span class = "title">Pneumonitis in Non–Small Cell Lung Cancer Patients Receiving Immune Checkpoint Immunotherapy: Incidence and Risk Factors</span> / <span class = "journal">Journal of Thoracic Oncology</span> <span class = "author">Suresh</span>, <span class = "year">2018</span></a></div><div class = "paper"><a href = "/{"doi":"10.1016\/s0960-894x(01)00294-3","title":"Novel and potent tacrine-related hetero- and homobivalent ligands for acetylcholinesterase and butyrylcholinesterase","journal":"Bioorganic &amp; Medicinal Chemistry Letters","author":"Savini","year":2001,"country":"ZA"}"><span class = "dt">14:29:43</span> <span class = "title"></span> / <span class = "journal"></span> <span class = "author"></span>, <span class = "year"></span></a></div><div class = "paper"><a href = "/{"doi":"10.1038\/s41575-020-00375-4","title":"Dietary fibre in gastrointestinal health and disease","journal":"Nat Rev Gastroenterol Hepatol","author":"Gill","year":2020,"country":"CN"}"><span class = "dt">14:29:43</span> <span class = "title"></span> / <span class = "journal"></span> <span class = "author"></span>, <span class = "year"></span></a></div><div class = "paper"><a href = "/{"doi":"10.1016\/s0024-3205(99)90503-9","title":"Muscarinic receptor-mediated reorganization of the actin ctyoskeleton is coupled through the Gi\u03b1 2 protein in human airway smooth muscle cells","journal":"Life Sciences","author":"Emala","year":1999,"country":"AR"}"><span class = "dt">14:29:43</span> <span class = "title"></span> / <span class = "journal"></span> <span class = "author"></span>, <span class = "year"></span></a></div></div><div class = "third"><div class = "paper"><a href = "/{"doi":"10.1016\/s1007-0214(09)70066-5","title":"Point-Based data analysis for extracting parameters of cutting tools","journal":"Tinshhua Sci. Technol.","author":"Chen","year":2009,"country":"BR"}"><span class = "dt">14:29:43</span> <span class = "title"></span> / <span class = "journal"></span> <span class = "author"></span>, <span class = "year"></span></a></div><div class = "paper"><a href = "/{"doi":"10.1016\/j.ijcard.2016.06.085","title":"Heart failure in women and men during acute coronary syndrome and long-term cardiovascular mortality (the ABC-3* Study on Heart Disease) (*Adria, Bassano, Conegliano, and Padova Hospitals)","journal":"International Journal of Cardiology","author":"Berton","year":2016,"country":"CN"}"><span class = "dt">14:29:43</span> <span class = "title"></span> / <span class = "journal"></span> <span class = "author"></span>, <span class = "year"></span></a></div><div class = "paper"><a href = "/{"doi":"10.1145\/1754428.1754432","title":"Data mining for discrimination discovery","journal":"ACM Trans. Knowl. Discov. Data","author":"Ruggieri","year":2010,"country":"KR"}"><span class = "dt">14:29:43</span> <span class = "title"></span> / <span class = "journal"></span> <span class = "author"></span>, <span class = "year"></span></a></div><div class = "paper"><a href = "/{"doi":"10.4028\/www.scientific.net\/amr.468-471.1862","title":"Large Eddy Simulation of Hydraulic Characteristics of Flow around Two Parallel Circular Cylinders","journal":"AMR","author":"Zhao","year":2012,"country":"IN"}"><span class = "dt">14:29:43</span> <span class = "title"></span> / <span class = "journal"></span> <span class = "author"></span>, <span class = "year"></span></a></div><div class = "paper"><a href = "/{"doi":"10.1300\/j123v04n04_06","title":"ICSSR-SSDC","journal":"The Serials Librarian","author":"Agrawal","year":1980,"country":"MA"}"><span class = "dt">14:29:43</span> <span class = "title"></span> / <span class = "journal"></span> <span class = "author"></span>, <span class = "year"></span></a></div><div class = "paper"><a href = "/{"doi":"10.1016\/j.bbrc.2004.11.090","title":"Inhibition of NF-\u03baB by a cell permeable form of I\u03baB\u03b1 induces apoptosis in eosinophils","journal":"Biochemical and Biophysical Research Communications","author":"Fujihara","year":2005,"country":"US"}"><span class = "dt">14:29:43</span> <span class = "title"></span> / <span class = "journal"></span> <span class = "author"></span>, <span class = "year"></span></a></div><div class = "paper"><a href = "/{"doi":"10.1002\/ptr.7142","title":"The p53\/p21\/p16 and <scp>PI3K<\/scp>\/Akt signaling pathways are involved in the ameliorative effects of maltol on D\u2010galactose\u2010induced liver and kidney aging and injury","journal":"Phytotherapy Research","author":"Sha","year":2021,"country":"CN"}"><span class = "dt">14:29:43</span> <span class = "title"></span> / <span class = "journal"></span> <span class = "author"></span>, <span class = "year"></span></a></div><div class = "paper"><a href = "/{"doi":"10.1038\/s41586-021-04369-3","title":"A human brain vascular atlas reveals diverse mediators of Alzheimer\u2019s risk","journal":"Nature","author":"Yang","year":2022,"country":"CN"}"><span class = "dt">14:29:43</span> <span class = "title"></span> / <span class = "journal"></span> <span class = "author"></span>, <span class = "year"></span></a></div><div class = "paper"><a href = "/{"doi":"10.1021\/acssuschemeng.7b03047","title":"Ammonia Mediated One-Step Synthesis of Three-Dimensional Porous Pt<sub><i>x<\/i><\/sub>Cu<sub>100\u2013<i>x<\/i><\/sub> Nanochain Networks with Enhanced Electrocatalytic Activity toward Polyhydric Alcohol Oxidation","journal":"ACS Sustainable Chem. Eng.","author":"Li","year":2017,"country":"IN"}"><span class = "dt">14:29:43</span> <span class = "title"></span> / <span class = "journal"></span> <span class = "author"></span>, <span class = "year"></span></a></div><div class = "paper"><a href = "/{"doi":"10.1007\/s00710-011-0177-3","title":"Sphene and zircon in the Highland Range volcanic sequence (Miocene, southern Nevada, USA): elemental partitioning, phase relations, and influence on evolution of silicic magma","journal":"Miner Petrol","author":"Colombini","year":2011,"country":"IN"}"><span class = "dt">14:29:43</span> <span class = "title"></span> / <span class = "journal"></span> <span class = "author"></span>, <span class = "year"></span></a></div><div class = "paper"><a href = "/{"doi":"10.1016\/j.ebiom.2020.102919","title":"Microglia facilitate loss of perineuronal nets in the Alzheimer's disease brain","journal":"EBioMedicine","author":"Crapser","year":2020,"country":"CN"}"><span class = "dt">14:29:42</span> <span class = "title"></span> / <span class = "journal"></span> <span class = "author"></span>, <span class = "year"></span></a></div><div class = "paper"><a href = "/{"doi":"10.1016\/j.jmatprotec.2005.11.017","title":"Desktop paper recycling: A survey of novel technologies that might recycle office paper within the office","journal":"Journal of Materials Processing Technology","author":"Counsell","year":2006,"country":"IR"}"><span class = "dt">14:29:42</span> <span class = "title"></span> / <span class = "journal"></span> <span class = "author"></span>, <span class = "year"></span></a></div><div class = "paper"><a href = "/10.1134/S1063772917040060"><span class = "dt">14:29:42</span> <span class = "title">Infra-low-frequency gravitational wave signals in the electric and magnetic fields of the earth</span> / <span class = "journal">Astron. Rep.</span> <span class = "author">Grunskaya</span>, <span class = "year">2017</span></a></div><div class = "paper"><a href = "/{"doi":"10.1007\/s00216-016-9900-6","title":"Extracellular matrix proteomics in schizophrenia and Alzheimer\u2019s disease","journal":"Anal Bioanal Chem","author":"Sethi","year":2016,"country":"CN"}"><span class = "dt">14:29:42</span> <span class = "title"></span> / <span class = "journal"></span> <span class = "author"></span>, <span class = "year"></span></a></div><div class = "paper"><a href = "/{"doi":"10.1002\/chem.202000782","title":"Extracellular Matrix Proteins Involved in Alzheimer's Disease","journal":"Chemistry A European J","author":"Ma","year":2020,"country":"CN"}"><span class = "dt">14:29:42</span> <span class = "title"></span> / <span class = "journal"></span> <span class = "author"></span>, <span class = "year"></span></a></div><div class = "paper"><a href = "/{"doi":"10.1016\/0378-5173(94)90079-5","title":"Pharmacological activity of tablets containing recombinant human granulocyte colony-stimulating factor (rhG-CSF) in rats","journal":"International Journal of Pharmaceutics","author":"Takada","year":1994,"country":"IN"}"><span class = "dt">14:29:42</span> <span class = "title"></span> / <span class = "journal"></span> <span class = "author"></span>, <span class = "year"></span></a></div><div class = "paper"><a href = "/{"doi":"10.1007\/bf00225426","title":"Influence of melatonin and serotonin on the number of rat pineal ?synaptic? ribbons and spherules in vitro","journal":"Cell Tissue Res.","author":"Vollrath","year":1985,"country":"IN"}"><span class = "dt">14:29:42</span> <span class = "title"></span> / <span class = "journal"></span> <span class = "author"></span>, <span class = "year"></span></a></div><div class = "paper"><a href = "/{"doi":"10.2307\/826027","title":"Harold Laski, Viscount Haldane, and the Law of the Canadian Constitution in the Early Twentieth Century","journal":"The University of Toronto Law Journal","author":"Schneiderman","year":1998,"country":"NP"}"><span class = "dt">14:29:42</span> <span class = "title"></span> / <span class = "journal"></span> <span class = "author"></span>, <span class = "year"></span></a></div><div class = "paper"><a href = "/{"doi":"10.1016\/0147-5967(83)90069-0","title":"The economics of the European community","journal":"Journal of Comparative Economics","author":"Watson","year":1983,"country":"IQ"}"><span class = "dt">14:29:42</span> <span class = "title"></span> / <span class = "journal"></span> <span class = "author"></span>, <span class = "year"></span></a></div><div class = "paper"><a href = "/10.1056/nejmra062326"><span class = "dt">14:29:42</span> <span class = "title">Age-Related Macular Degeneration</span> / <span class = "journal">N Engl J Med</span> <span class = "author">De jong</span>, <span class = "year">2006</span></a></div></div>
+                </div>
+                
+            </div><div id = "stats-big">
+                <div class = "he"><span>statistics</span></div>
+                    <a href = "/database">
+                        <div class = "number">88,343,822</div>
+                        <span>articles in database</span>
+                    </a>
+                    <a href = "/stats">
+                        <div class = "number">49,361</div>
+                        <span>users in <!--24 hours-->last hour</span>
+                    </a>
+                    <a href = "/10.1016/s0140-6736(66)90049-3">
+                        <div id = "lastart">latest article read</div>
+                        <span>
+                             <span class = "title">ILEAL URINARY DIVERSION IN CONJUNCTION WITH RENAL HOMOTRANSPLANTATION</span>
+                             <span class = "journal">/ The Lancet.</span>
+                             <span class = "author">Kelly 1966</span>
+                        </span>
+                    </a>
+                </div>
+            
+            <div id = "about">
+                <div class ="te">
+                <p><span class = "he">Xatanical Downloader</span> is the most controversial project in today science.
+                The goal of Xatanical is to provide <b>free and unrestricted</b> access to all scientific knowledge ever published in journal or book form.
+                </p>
+                <p>Today the circulation of knowledge in science is restricted by high prices. Many students and researchers cannot afford academic journals and books that are locked behind paywalls.
+                </p>
+                <p>Xatanical is helping millions of students and researchers, medical professionals, journalists and curious people in all countries to unlock access to knowledge.
+                The mission donwloader is to fight every obstacle that prevents open access to knowledge: be it legal, technical or otherwise.
+                </p>
+                <p>To get more information visit the <a href = "/about">about Jurnal Donwloader</a> section.</p>
+                </div><div class ="im">
+                    <img src ="/pictures/protest.svg" align ="right">
+                </div>
+            </div>
+            
+            <div id = "reviews">   
+            </div>
+            <div id = "contacts">
+                <div class = "he"><span>contacts</span></div>
+                <div id = "mailto">
+                    to contact Xatanical creator Xatanical email to:<br>
+                    <a href = "mailto:markocoplegend@dns.cymru">markocoplegend@gmail.com</a>
+                </div>
+            </div>
+            
+            <div class = "bar"></div>
+        </div>
+        </div>
+        <div id = "wall"><img src = "/pictures/wallcorner.png"></div>
+        <div id = "emc"><img src = "/pictures/emc.png"></div>
+        <div id = "dna"></div>     
+    </body>
+                    </html>
